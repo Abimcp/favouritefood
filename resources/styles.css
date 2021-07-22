@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato:ital,wght@1,100;1,400&family=Sacramento&display=swap");
+
+#home-header {
+  background-image: url("https://images.immediate.co.uk/production/volatile/sites/2/2018/10/Olive_Lasagne3-v2-85a8afb.jpg?webp=true&quality=45&crop=6px%2C1479px%2C3160px%2C1360px&resize=1880%2C799");
+  min-height: 40vh;
+}
+
+#recipe-header {
+  background-image: url("https://images.immediate.co.uk/production/volatile/sites/2/2018/10/Olive_Lasagne3-v2-85a8afb.jpg?webp=true&quality=45&crop=6px%2C1479px%2C3160px%2C1360px&resize=1880%2C799");
+  min-height: 40vh;
+}
+#rec-header {
+  background-image: url("https://images.immediate.co.uk/production/volatile/sites/2/2018/10/Olive_Lasagne3-v2-85a8afb.jpg?webp=true&quality=45&crop=6px%2C1479px%2C3160px%2C1360px&resize=1880%2C799");
+  min-height: 40vh;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+h1 {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 500;
+  font-size: 80px;
+  color: whitesmoke;
+}
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: whitesmoke;
+}
+h5,
+p {
+  color: black;
+}
+
+div.c-wrapper {
+  width: 50%; /* for example */
+  margin: auto;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 710px) {
+  h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  #rec-header,
+  #recipe-header,
+  #home-header {
+    width: 100%;
+  }
+  .card {
+    margin: 0 auto;
+  }
+  .card-body {
+    text-align: center;
+    display: block;
+  }
+  .col {
+    width: 100%;
+    display: flex;
+    justify-content: around;
+  }
+  #rec-text {
+    text-align: left;
+  }
+}
