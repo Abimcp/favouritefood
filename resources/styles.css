@@ -35,10 +35,21 @@ h5,
 p {
   color: black;
 }
+.recommendation-list {
+  display: block;
+  text-align: center;
+  list-style-type: none;
+}
 
 div.c-wrapper {
   width: 50%; /* for example */
   margin: auto;
+}
+#mums-house {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 80px;
+  color: black;
 }
 
 .carousel-inner > .item > img,
